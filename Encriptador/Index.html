@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/responsive/tablet.css">
+    <link rel="stylesheet" href="./styles/responsive/celular.css">
+    <title>Geringosador</title>
+</head>
+
+<body>
+
+    <main>
+
+    <section class="encriptadorContainer">
+    <h1 class="titulo">Geringosador!</h1>
+    <textarea type="text" placeholder="ingrese el texto aqui"></textarea> 
+    </section>
+    
+        <div class="botonesContainer">
+            <span class="advertencia">
+                <img src="./assets/advertencia.svg" alt="advertencia">
+                Solo letras minusculas y sin acento
+            </span>
+
+            <div class="botones">
+                <button onclick="encriptar()">Encriptar</button>
+                <button id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+    </main>
+
+    <aside>
+        <img src="./assets/image.png" alt="imagen hombresito">
+
+        <div class="textoRespuesta">
+            <h2>Ningun mensaje fue encontrado</h2> 
+            <br>
+            <p> Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+    </aside>
+
+</body>
+</html>
+
+
+<script src="scripts.js"></script>
