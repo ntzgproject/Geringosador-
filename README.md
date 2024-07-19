@@ -9,7 +9,7 @@ Esta app web es una reversion de un encriptador que realice mientras estudiaba e
 # Modo de uso
 Solamente descarga el proyecto desde tu pc y ejecuta el archivo "Index.html" o ingresa directamente mediante cualquier dispositivo desde:
 
-link de github page
+[link de github page](https://ntzgproject.github.io/Geringosador-/Encriptador/Index.html)
 
 # Adaptaciones
 
